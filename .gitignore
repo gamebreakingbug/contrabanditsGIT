@@ -1,8 +1,22 @@
-# Ignore The following directories / file extensions
-Library
-Temp
-
-# Ignore the following file extensions
-*.exe
-*.vcproject
-*.sln
+    ##################
+    # Unity ignores:
+    #
+    # !!! WARNING !!!
+    #
+    # … you MUST convert Unity to using Metafiles *before* you start using this
+    # .gitignore file, or you WILL lose data!
+    #
+     
+    # OS X only:
+    .DS_Store
+    *.swp
+    *.Trashes
+     
+    # All platforms:
+    Library
+    Temp
+    *.csproj
+    *.pidb
+    *.unityproj
+    *.sln
+    *.userprefs
